@@ -1,3 +1,13 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/DancingScript-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: ICielDomaine;
+    src: url(../fonts/iCielDomaineDisplay-Bold.ttf);
+  }
+
 html, body {
     height: 100%;
     margin: 0;
@@ -5,8 +15,12 @@ html, body {
 }
 
 .wedding {
+    /* Background */
+    background-image: url(../images/0S0A0945.jpg);
+    background-position: top;
+    background-size: cover;
+
     height: 100%;
-    background-color: rosybrown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,9 +29,46 @@ html, body {
     position: relative;
 }
 
-.wedding .title {
+/* Mặc định */
+.title {
+    position: absolute;
+    background: hsla(0, 0%, 0%, 0.393);
+    bottom: 15%;
+    padding: 10px;
+
     text-align: center;
+    color: white;
 }
+.title p {
+    margin: 0;
+    padding: 0;
+}
+.title .name {
+  font-family: DancingScript;
+  font-size: 30px;
+}
+
+.title .or {
+    font-family: DancingScript;
+      font-size: 15px;
+      padding-top: 5px
+    }
+    .title .save-the-date {
+        font-family: 'Times New Roman', Times, serif;
+      padding-top: 5px;
+      font-size: 15px;
+    
+    }
+.title .date {
+    font-family: ICielDomaine;
+  font-size: 20px;
+  padding-top: 5px;
+
+}
+
+
+
+
 .btn-1 {
     position: absolute;
     top: 0;
@@ -36,3 +87,21 @@ html, body {
     right: 0;
     transform: translate(0, 0);
 }
+
+/* Reponsive */
+/* #sm */
+@media only screen and (min-width: 576px) {
+    .wedding .title {
+        
+    }
+}
+/* #md */
+@media only screen and (min-width: 768px) {
+
+}
+/* #lg */
+@media only screen and (min-width: 992px) {}
+/* #xl */
+@media only screen and (min-width: 1200px) {}
+/* #xxl */
+@media only screen and (min-width: 1400px) {}
