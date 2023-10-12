@@ -12,7 +12,20 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    
+    user-select: none; /* CSS3 */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -ms-user-select: none; /* Internet 
 }
+
+.unselectable {
+    user-select: none; /* CSS3 */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 
 .wedding {
     /* Background */
@@ -65,9 +78,6 @@ html, body {
   padding-top: 5px;
 
 }
-
-
-
 
 .btn-1 {
     position: absolute;
