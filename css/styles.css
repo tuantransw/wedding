@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wedding {
+    height: 100%;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.wedding .title {
+    text-align: center;
+}
+.btn-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 0);
+}
+.btn-2 {
+    position: absolute;
+    bottom: 1;
+    right: 0;
+    transform: translate(0, 0);
+}
+.btn-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, 0);
+}
