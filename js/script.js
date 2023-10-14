@@ -124,5 +124,27 @@ function replaceDefaultLink() {
   
 }
 
+const vinylDisc = document.getElementById("vinyl-disc");
+        const audio = document.getElementById("audio");
 
+        let isPlaying = true;
+
+        vinylDisc.addEventListener("click", () => {
+            if (isPlaying) {
+                audio.pause();
+                vinylDisc.classList.remove("playing");
+            } else {
+                audio.play();
+                vinylDisc.classList.add("playing");
+            }
+            isPlaying = !isPlaying;
+        });
+
+        // Khi trang đã tải hoàn toàn
+        document.addEventListener("DOMContentLoaded", function () {
+            const audio = document.getElementById("audio");
+            const vinylDisc = document.getElementById("vinyl-disc");
+            audio.play();
+            vinylDisc.classList.add("playing");
+        });
 
