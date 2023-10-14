@@ -2,10 +2,33 @@
     font-family: DancingScript;
     src: url(../fonts/DancingScript-Bold.ttf);
   }
-  
+  @font-face {
+    font-family: SlideJoyful;
+    src: url(../fonts/9SLIDE06JOYFUL.ttf);
+  }
+  @font-face {
+    font-family: Avenirnext-bold;
+    src: url(../fonts/AVENIRNEXT-BOLD.TTF);
+  }
+  @font-face {
+    font-family: Avenirnext-demibold;
+    src: url(../fonts/AVENIRNEXT-DEMIBOLD.TTF);
+  } 
+   @font-face {
+    font-family: Avenirnext-medium;
+    src: url(../fonts/AVENIRNEXT-MEDIUM.TTF);
+  } 
+   @font-face {
+    font-family: Avenirnext-regular;
+    src: url(../fonts/AVENIRNEXT-REGULAR.TTF);
+  }
   @font-face {
     font-family: ICielDomaine;
     src: url(../fonts/iCielDomaineDisplay-Bold.ttf);
+  }
+  @font-face {
+    font-family: ICielDomaineMedium;
+    src: url(../fonts/iCielDomaineDisplay-Medium.ttf);
   }
   @keyframes rotate-disc {
     from {
@@ -49,6 +72,27 @@ html, body {
     cursor: pointer;
 }
 
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.active {
+    display: block;
+}
 .playing {
     animation: rotate-disc 9s linear infinite;
 }
@@ -124,20 +168,122 @@ html, body {
     bottom: 1;
     right: 0;
     transform: translate(0, 0);
-}
-.btn-3 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(0, 0);
 } */
 
+.ivitation-card {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: translate(0, 0);
+}
+
+.ivitation-card-modal {
+    display: none;
+    position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: url(../images/background-ivitation-card.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.ivitation-card-modal{
+    text-align: center;
+    justify-content: center;
+    font-family: Avenirnext-regular;
+}
+.ivitation-card-modal .name {
+   font-family: SlideJoyful;
+   margin-bottom: 28px;
+}
+/* .ivitation-card-modal .name .heart {
+   font-size: 20px;
+   width: 10px;
+ } */
+.ivitation-card-modal .name span{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 50px;
+    color: #1a3c68;
+}
+.ivitation-card-modal .invitation {
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    color: #1a3c68;
+}
+
+.ivitation-card-modal .invitation strong {
+    font-family: Avenirnext-bold;
+}
+
+.ivitation-card-modal .time {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ivitation-card-modal .time p{
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1a3c68;
+    border-top: 1px solid rgba(25,59,102,.2);
+    border-bottom: 1px solid rgba(25,59,102,.2);
+    padding: 4px 0;
+    width: 82px;
+}
+.ivitation-card-modal .time p:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #1a3c68;
+    font-family: ICielDomaine;
+    border: none;
+    padding: 0;
+    width: auto;
+}
+.ivitation-card-modal .time p:nth-child(2) span{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: ICielDomaineMedium;
+}
+
+.ivitation-card-modal .location {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1a3c68;
+    margin-bottom: 48px;
+    z-index: 1;
+}
+.ivitation-card-modal .location p {
+    text-transform: inherit;
+    color: #1a3c68;
+    font-weight: 700;
+    display: initial;
+    font-family: Avenirnext-demibold;
+}
+.ivitation-card-modal .location h5{
+    font-size: 100%;
+    font-weight: 400;
+}
 /* Reponsive */
 /* #sm */
 @media only screen and (min-width: 576px) {
-    .wedding .title {
-        
-    }
+
 }
 /* #md */
 @media only screen and (min-width: 768px) {
