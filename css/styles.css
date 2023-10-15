@@ -76,11 +76,20 @@ html, body {
 .close {
     position: absolute;
     top: 15px;
-    right: 35px;
+    right: 15px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+
+
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: #1a3c68;
+
+
+
   }
   
   .close:hover,
@@ -230,6 +239,8 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .ivitation-card-modal .time p{
     display: block;
@@ -279,6 +290,28 @@ html, body {
 .ivitation-card-modal .location h5{
     font-size: 100%;
     font-weight: 400;
+}
+
+.ivitation-card-modal .button-group{
+    display: flex;
+}
+
+.ivitation-card-modal .button-group a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a3c68;
+    width: 195px;
+    height: 56px;
+    margin-right: 16px;
+    position: relative;
+    transition: all .5s ease;
 }
 /* Reponsive */
 /* #sm */
