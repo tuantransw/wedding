@@ -279,7 +279,10 @@ html, body {
     color: #1a3c68;
     margin-bottom: 48px;
     z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 .ivitation-card-modal .location p {
     text-transform: inherit;
     color: #1a3c68;
@@ -294,6 +297,8 @@ html, body {
 
 .ivitation-card-modal .button-group{
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .ivitation-card-modal .button-group a {
