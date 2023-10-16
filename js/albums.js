@@ -228,22 +228,22 @@ jQuery(document).ready(function(e) {
         e("#transform-content-id").removeClass("in-active-right"),
         e("body").css("overflow", "auto")
     });
-    let c = 0;
-    e(window).scroll(function() {
-        if (e("#cards-bride").hasClass("is-active") || e("#cards-groom").hasClass("is-active")) {
-            let i = e(window).scrollTop() + 1;
-            console.log(i),
-            i > c && (e(".ivitation_cards").css("transform", "translateY(-100vh)"),
-            e(".ivitation_cards").removeClass("is-active"),
-            e("#cm-bride").removeClass("_chucmung_active"),
-            e("#cm-groom").removeClass("_chucmung_active"),
-            setTimeout(()=>{
-                e(".ivitation_cards").css("transform", "translateY(0)")
-            }
-            , 1e3)),
-            c = i
-        }
-    }),
+    // let c = 0;
+    // e(window).scroll(function() {
+    //     if (e("#cards-bride").hasClass("is-active") || e("#cards-groom").hasClass("is-active")) {
+    //         let i = e(window).scrollTop() + 1;
+    //         console.log(i),
+    //         i > c && (e(".ivitation_cards").css("transform", "translateY(-100vh)"),
+    //         e(".ivitation_cards").removeClass("is-active"),
+    //         e("#cm-bride").removeClass("_chucmung_active"),
+    //         e("#cm-groom").removeClass("_chucmung_active"),
+    //         setTimeout(()=>{
+    //             e(".ivitation_cards").css("transform", "translateY(0)")
+    //         }
+    //         , 1e3)),
+    //         c = i
+    //     }
+    // }),
     e(".down-screen-cards").on("click", function(i) {
         i.preventDefault(),
         e(".ivitation_cards").css("transform", "translateY(-100vh)"),
