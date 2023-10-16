@@ -185,7 +185,12 @@ html, body {
     right: 10px;
     transform: translate(0, 0);
 }
-
+.photo-albums {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    transform: translate(0, 0);
+}
 .ivitation-card-modal {
     display: none;
     position: fixed; /* Stay in place */

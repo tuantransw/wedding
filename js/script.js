@@ -157,6 +157,15 @@ ivitationCard.onclick = function(){
 
 }
 
+var photoAlbums = document.getElementById("photo-albums");
+
+var photoAlbumsModal = document.getElementById("popup-album-image");
+
+photoAlbums.onclick = function(){
+  console.log(photoAlbumsModal)
+  photoAlbumsModal.classList.add("is-active");
+}
+
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
