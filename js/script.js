@@ -153,8 +153,8 @@ var ivitationCard = document.getElementById("ivitation-card");
 var ivitationCardModal = document.getElementById("ivitation-card-modal");
 
 ivitationCard.onclick = function(){
-  ivitationCardModal.style.display = "block";
-
+  // ivitationCardModal.style.display = "block";
+  photoAlbumsModal.classList.add("is-active");
 }
 
 var photoAlbums = document.getElementById("photo-albums");
@@ -162,15 +162,14 @@ var photoAlbums = document.getElementById("photo-albums");
 var photoAlbumsModal = document.getElementById("popup-album-image");
 
 photoAlbums.onclick = function(){
-  console.log(photoAlbumsModal)
   photoAlbumsModal.classList.add("is-active");
 }
-
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
-  ivitationCardModal.style.display = "none";
+  // ivitationCardModal.style.display = "none";
+  photoAlbumsModal.classList.remove("is-active");
 }

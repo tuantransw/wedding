@@ -323,6 +323,12 @@ html, body {
     position: relative;
     transition: all .5s ease;
 }
+
+.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1)
+  }
 /* Reponsive */
 /* #sm */
 @media only screen and (min-width: 576px) {
