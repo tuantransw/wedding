@@ -154,7 +154,7 @@ var ivitationCardModal = document.getElementById("ivitation-card-modal");
 
 ivitationCard.onclick = function(){
   // ivitationCardModal.style.display = "block";
-  photoAlbumsModal.classList.add("is-active");
+  ivitationCardModal.classList.add("is-active");
 }
 
 var photoAlbums = document.getElementById("photo-albums");
@@ -171,5 +171,5 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   // ivitationCardModal.style.display = "none";
-  photoAlbumsModal.classList.remove("is-active");
+  ivitationCardModal.classList.remove("is-active");
 }
