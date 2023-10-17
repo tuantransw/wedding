@@ -434,11 +434,11 @@ img {
 }
 
 @media (max-width:480px) {
-  .popup-album-image {
+  /* .popup-album-image {
     pointer-events: none;
     opacity: 0 !important;
     visibility: hidden !important
-  }
+  } */
 }
 
 .popup-album-image,
