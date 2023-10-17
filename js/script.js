@@ -1,24 +1,24 @@
-// Replace 'your_api_endpoint' with the actual URL of the API you want to call
-const apiUrl = 'https://api.tta1214.click/api/';
+// // Replace 'your_api_endpoint' with the actual URL of the API you want to call
+// const apiUrl = 'https://api.tta1214.click/api/';
 
-// Make a GET request to the API
-fetch(apiUrl + 'products')
-  .then(response => {
-    // Check if the response status is OK (status code 200)
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    // Parse the JSON response
-    return response.json();
-  })
-  .then(data => {
-    // Do something with the JSON data
-    console.log(data)
-  })
-  .catch(error => {
-    // Handle errors here
-    console.error('There was a problem with the fetch operation:', error);
-  });
+// // Make a GET request to the API
+// fetch(apiUrl + 'products')
+//   .then(response => {
+//     // Check if the response status is OK (status code 200)
+//     if (!response.ok) {
+//       throw new Error('Network response was not ok');
+//     }
+//     // Parse the JSON response
+//     return response.json();
+//   })
+//   .then(data => {
+//     // Do something with the JSON data
+//     console.log(data)
+//   })
+//   .catch(error => {
+//     // Handle errors here
+//     console.error('There was a problem with the fetch operation:', error);
+//   });
 
 function audioClick() {
   var backgroundAudio = document.getElementById("backgroundAudio");
@@ -149,13 +149,13 @@ function replaceDefaultLink() {
 //         });
 
 // Get the modal
-var ivitationCard = document.getElementById("ivitation-card");
-var ivitationCardModal = document.getElementById("ivitation-card-modal");
+// var ivitationCard = document.getElementById("ivitation-card");
+// var ivitationCardModal = document.getElementById("ivitation-card-modal");
 
-ivitationCard.onclick = function(){
-  // ivitationCardModal.style.display = "block";
-  ivitationCardModal.classList.add("is-active");
-}
+// ivitationCard.onclick = function(){
+//   // ivitationCardModal.style.display = "block";
+//   ivitationCardModal.classList.add("is-active");
+// }
 
 var photoAlbums = document.getElementById("photo-albums");
 

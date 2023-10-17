@@ -11,11 +11,12 @@
 
     <link rel="stylesheet" href="css/styles.css" />
 
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style-album.css">
 
-    <!-- <link rel="stylesheet" href="css/styles-album.css"> -->
+    <link rel="stylesheet" href="css/style-ivitation-card.css">
+
     <!-- Jquery -->
-    <script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script> -->
     <!-- Swiper -->
     <link rel="stylesheet" id="swiper-css"
         href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css?ver=6.0.6" type="text/css"
@@ -58,44 +59,95 @@
         </div>
     </div>
 
-    <div id="ivitation-card-modal" class="ivitation-card-modal">
-        <span class="close">&times;</span>
-        <div class="name">
-            <span style="margin-right: 20px;">Tuấn Anh</span>
-            <!-- <span class="heart"><img src="./images/pngegg (1).png" alt=""></span> -->
-            <span>Ngọc Anh</span>
-        </div>
-        <div class="name"></div>
-        <div class="invitation">Trân trọng kính mời <strong>bạn và người thương</strong> tới dự <strong>bữa cơm thân
-                mật</strong><br>chung vui cùng Gia Đình chúng tôi được tổ chức vào</div>
-        <div class="time">
-            <p>Thứ 6</p>
-            <p>
-                <strong>03 - 11</strong>
-                <span>(10-10 Canh Thân)</span>
-            </p>
-            <p>lúc 16h00</p>
-        </div>
-        <div class="location">
-            <p>TẠI TRUNG TÂM TỔ CHỨC HỘI NGHỊ & TIỆC CƯỚI</p> <br>
-            <p style="padding-top: 4px;">HAPPY CLUB</p>
 
-            <h5 style="padding-top: 8px;">Số 1 Trần Tất Văn, Phù Liễn, Kiến An, Hải Phòng</h5>
+    <section class="thiepmoi-nhatrai ivitation_cards" id="cards-groom"
+        style="background-image: url('https://manhmanh.webding.vn/wp-content/themes/main/assets/images/thiepmoi/bgr2.png');">
+        <div class="content">
+            <button class="back">
+                <span class="redirect" id="back">
+                    <img src="images/common/left2.png" alt="Tuấn Anh &amp; Ngọc Anh Wedding">
+                </span>
+                <p class="text-next">Tuấn Anh Ngọc Anh</p>
+
+            </button>
+            <div class="name">
+
+                <div class="_item">
+                    <div class="_people">Tuấn Anh</div>
+
+                </div>
+                <div class="_item">
+                    <div class="_people">Ngọc Anh</div>
+                </div>
+            </div>
+            <div class="_kinhmoi">Trân trọng kính mời <strong>bạn và người thương</strong> tới dự <strong>bữa cơm thân
+                    mật</strong><br>chung vui cùng Gia Đình chúng tôi được tổ chức vào</div>
+            <div class="_time">
+                <p>Thứ Sáu</p>
+                <p>
+                    <strong>03 - 11</strong>
+                    <span>(10-10 Canh Thân)</span>
+                </p>
+                <p>lúc 11h00</p>
+            </div>
+            <div class="_location">
+                <p>TẠI TRUNG TÂM TỔ CHỨC HỘI NGHỊ & TIỆC CƯỚI</p> <br>
+                <p style="padding-top: 4px;">HAPPY CLUB</p>
+
+                <h5 style="padding-top: 8px;">Số 1 Trần Tất Văn, Phù Liễn, Kiến An, Hải Phòng</h5>
+            </div>
+            <div class="_list_but">
+                <a style="pointer-events: none; opacity: 0.5;" href="https://maps.app.goo.gl/XsysWNkA5Qe4DESk7"
+                    target="_blank">
+                    <p>Xem Bản đồ</p>
+                </a>
+                <a href="#chuc-mung" class="chucmung_toggle">
+                    <p>Chúc mừng</p>
+                </a>
+                <a href="#tham-gia" id="join-groom" class="click_thamgia dislable " join="no"
+                    style="pointer-events: none; opacity: 0.5;"><img
+                        src="https://manhmanh.webding.vn/wp-content/themes/main/assets/images/thiepmoi/img_8.png">
+                    <p>Sẽ tham dự</p>
+                </a>
+            </div>
         </div>
-        <div class="button-group">
-            <a style="pointer-events: none; opacity: 0.5;" href="https://maps.app.goo.gl/XsysWNkA5Qe4DESk7" target="_blank">
-                <p>Xem Bản đồ</p>
-            </a>
-            <a style="pointer-events: none; opacity: 0.5;" href="#chuc-mung" class="chucmung_toggle ">
-                <p>Chúc mừng</p>
-            </a>
-            <a href="#tham-gia" id="join-groom" class="click_thamgia dislable " join="no"
-                style="pointer-events: none; opacity: 0.5;"><img
-                    src="images/icons/tick.png">
-                <p>Sẽ tham dự</p>
-            </a>
+        <div class="_chucmung" id="cm-groom">
+            <div class="close"><img
+                    src="https://manhmanh.webding.vn/wp-content/themes/main/assets/images/thiepmoi/close.png">
+            </div>
+            <div class="_back"
+                style="background-image: url('https://manhmanh.webding.vn/wp-content/themes/main/assets/images/thiepmoi/img_6.png');">
+                <div class="_content">
+                    <div class="_background"></div>
+                    <div class="_detail">
+                        <div class="w-center">
+                            <div class="_item1">Chúc mừng hạnh phúc!</div>
+                            <div class="_item2">Món quà của bạn là <br>niềm hạnh phúc đối với vợ chồng mình!</div>
+                            <div class="_item3">
+                                <div class="_child">
+                                    <div class="_left">Chủ tài khoản</div>
+                                    <div class="_right">LE MAI ANH</div>
+                                </div>
+                                <div class="_child">
+                                    <div class="_left">Ngân hàng</div>
+                                    <div class="_right" style="text-transform: uppercase;">VIETCOMBANK</div>
+                                </div>
+                                <div class="_child">
+                                    <div class="_left">Số tài khoản</div>
+                                    <div class="_right">9964918231</div>
+                                </div>
+                            </div>
+                            <div class="_item4"><img
+                                    src="https://manhmanh.webding.vn/wp-content/themes/main/assets/images/thiepmoi/tym.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
+
+    </section>
 
     <div class="popup-album-image" id="popup-album-image">
         <button class="btn-close" id="btn-close-album-popup">
@@ -229,6 +281,7 @@
     <script src="js/router.js"></script>
     <!-- <script src="js/albums copy.js"></script> -->
     <script src="js/albums convert.js"></script>
+    <script src="js/ivitation-card.js"></script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/g/lazysizes(lazysizes.min.js)?ver=6.0.6"
         id="lazyload-js"></script>

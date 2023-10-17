@@ -559,13 +559,15 @@ img {
   height: calc(100% - 132px)
 }
 
+
+/* đánh dấu */
 @media (max-width:480px) {
 
   .popup-album-image-m .container_common .content_common .swiper-container.gallery-top,
   .popup-album-image-m .container_common .content_common .swiper-container.gallery-top-m,
   .popup-album-image .container_common .content_common .swiper-container.gallery-top,
   .popup-album-image .container_common .content_common .swiper-container.gallery-top-m {
-    height: 100%
+    /* height: 100% */
   }
 }
 
@@ -621,8 +623,8 @@ img {
 
   .popup-album-image-m .container_common .content_common .swiper-container.gallery-thumbs,
   .popup-album-image .container_common .content_common .swiper-container.gallery-thumbs {
-    display: none;
-    pointer-events: none
+    /* display: none;
+    pointer-events: none */
   }
 }
 
