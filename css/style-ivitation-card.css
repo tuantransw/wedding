@@ -80,7 +80,7 @@
   
   @media (max-width:480px) {
     .thiepmoi-nhatrai .content {
-      padding: 58px 16px 0;
+      padding: 0 16px 0;
       height: 88%;
       overflow-y: scroll;
       justify-content: center
