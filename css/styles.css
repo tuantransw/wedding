@@ -1,156 +1,127 @@
 @font-face {
-    font-family: AvenirNextLTPro-Bold\.otf;
-    src: url(../fonts/AvenirNextLTPro-Bold.otf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: AvenirNextLTPro-Regular\.otf;
-    src: url(../fonts/AvenirNextLTPro-Regular.otf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: iCielDomaineDisplay-Bold\.ttf;
-    src: url(../fonts/iCielDomaineDisplay-Bold.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: iCielDomaineDisplay-Demibold\.ttf;
-    src: url(../fonts/iCielDomaineDisplay-Demibold.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: iCielDomaineDisplay-Medium\.ttf;
-    src: url(../fonts/iCielDomaineDisplay-Medium.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: iCielDomaineDisplay-Regular\.ttf;
-    src: url(../fonts/iCielDomaineDisplay-Regular.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: AVENIRNEXT-BOLD\.TTF;
-    src: url(../fonts/AVENIRNEXT-BOLD.TTF) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: AVENIRNEXT-DEMIBOLD\.TTF;
-    src: url(../fonts/AVENIRNEXT-DEMIBOLD.TTF) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: AVENIRNEXT-MEDIUM\.TTF;
-    src: url(../fonts/AVENIRNEXT-MEDIUM.TTF) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: AVENIRNEXT-REGULAR\.TTF;
-    src: url(../fonts/AVENIRNEXT-REGULAR.TTF) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-  
-  @font-face {
-    font-family: "9SLIDE06JOYFUL.ttf";
-    src: url(../fonts/9SLIDE06JOYFUL.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-  }
-
-
-
-
+  font-family: AvenirNextLTPro-Bold\.otf;
+  src: url(../fonts/AvenirNextLTPro-Bold.otf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
 
 @font-face {
-    font-family: DancingScript;
-    src: url(../fonts/DancingScript-Bold.ttf);
-  }
-  @font-face {
-    font-family: SlideJoyful;
-    src: url(../fonts/9SLIDE06JOYFUL.ttf);
-  }
-  @font-face {
-    font-family: Avenirnext-bold;
-    src: url(../fonts/AVENIRNEXT-BOLD.TTF);
-  }
-  @font-face {
-    font-family: Avenirnext-demibold;
-    src: url(../fonts/AVENIRNEXT-DEMIBOLD.TTF);
-  } 
-   @font-face {
-    font-family: Avenirnext-medium;
-    src: url(../fonts/AVENIRNEXT-MEDIUM.TTF);
-  } 
-   @font-face {
-    font-family: Avenirnext-regular;
-    src: url(../fonts/AVENIRNEXT-REGULAR.TTF);
-  }
-  @font-face {
-    font-family: ICielDomaine;
-    src: url(../fonts/iCielDomaineDisplay-Bold.ttf);
-  }
-  @font-face {
-    font-family: ICielDomaineMedium;
-    src: url(../fonts/iCielDomaineDisplay-Medium.ttf);
-  }
-  @keyframes rotate-disc {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  font-family: AvenirNextLTPro-Regular\.otf;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
 }
+
+@font-face {
+  font-family: iCielDomaineDisplay-Bold\.ttf;
+  src: url(../fonts/iCielDomaineDisplay-Bold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: iCielDomaineDisplay-Demibold\.ttf;
+  src: url(../fonts/iCielDomaineDisplay-Demibold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: iCielDomaineDisplay-Medium\.ttf;
+  src: url(../fonts/iCielDomaineDisplay-Medium.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: iCielDomaineDisplay-Regular\.ttf;
+  src: url(../fonts/iCielDomaineDisplay-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AVENIRNEXT-BOLD\.TTF;
+  src: url(../fonts/AVENIRNEXT-BOLD.TTF) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AVENIRNEXT-DEMIBOLD\.TTF;
+  src: url(../fonts/AVENIRNEXT-DEMIBOLD.TTF) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AVENIRNEXT-MEDIUM\.TTF;
+  src: url(../fonts/AVENIRNEXT-MEDIUM.TTF) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AVENIRNEXT-REGULAR\.TTF;
+  src: url(../fonts/AVENIRNEXT-REGULAR.TTF) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "9SLIDE06JOYFUL.ttf";
+  src: url(../fonts/9SLIDE06JOYFUL.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: DancingScript;
+  src: url(../fonts/DancingScript-Bold.ttf);
+}
+
+@keyframes rotate-disc {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.wedding {
-    /* Background */
-    background-image: url(../images/albums/min/6.jpg);
-    background-position: top;
-    background-size: cover;
+.home {
+  /* Background */
+  background-image: url(../images/albums/min/6.jpeg);
+  background-position: top;
+  background-size: cover;
 
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-
-    position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
 }
-.group-music {
+
+/* .group-music {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -162,101 +133,314 @@ html, body {
     border-radius: 50%;
     position: relative;
     cursor: pointer;
-}
+} */
 
 /* The Close Button */
 .close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 
 
-    width: 55px;
-    height: 55px;
-    border-radius: 100%;
-    background: #1a3c68;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background: #1a3c68;
+}
 
-
-
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .active {
-    display: block;
+  display: block;
 }
+
 .playing {
-    animation: rotate-disc 9s linear infinite;
+  animation: rotate-disc 9s linear infinite;
 }
 
 .vinyl-disc .circle-2 {
-    width: 50%;
-    height: 50%;
-    background-image: url(../images/until.png);
-    background-size: cover;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  background-image: url(../images/until.png);
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .vinyl-disc .circle-3 {
-    width: 30%;
-    height: 30%;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+  padding: 350px 16px;
 }
 
 /* Mặc định */
 .title {
-    position: absolute;
-    background: hsla(0, 0%, 0%, 0.393);
-    bottom: 15%;
-    padding: 10px;
+  width: 150px;
+  /* position: absolute; */
+  background: hsla(0, 0%, 0%, 0.393);
+  /* bottom: 30%;*/
+  padding: 10px;
+  /* 
+    text-align: center; */
+  color: white;
+}
 
-    text-align: center;
-    color: white;
+.lst-button {
+  position: absolute;
+  bottom: 40px;
 }
+
+.btn-test {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 980px;
+  background: white;
+  width: 120px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 14px;
+  line-height: 1.42859;
+  cursor: pointer;
+  font-family: AVENIRNEXT-BOLD\.TTF;
+}
+.btn-test:hover {
+  text-decoration: none;
+    background-color: #fff;
+    color: #1d1d1f;
+    opacity: 0.9;
+}
+
 .title p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 .title .name {
   font-family: DancingScript;
   font-size: 30px;
 }
 
 .title .or {
-    font-family: DancingScript;
-      font-size: 15px;
-      padding-top: 5px
-    }
-    .title .save-the-date {
-        font-family: 'Times New Roman', Times, serif;
-      padding-top: 5px;
-      font-size: 15px;
-    
-    }
-.title .date {
-    font-family: ICielDomaine;
-  font-size: 20px;
+  font-family: DancingScript;
+  font-size: 15px;
+  padding-top: 5px
+}
+
+.title .save-the-date {
+  font-family: 'Times New Roman', Times, serif;
   padding-top: 5px;
+  font-size: 15px;
 
 }
+
+.title .date {
+  font-family: ICielDomaine;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+/* 
+.home ._list_but {
+  display: flex;
+  z-index: 1
+}
+  
+@media (min-width:1440px) {
+  .home ._list_but {
+    margin-bottom: 55px
+  }
+}
+
+@media (max-width:480px) {
+  .home ._list_but {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px
+  }
+}
+
+.home ._list_but a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1a3c68;
+  width: 195px;
+  height: 56px;
+  margin-right: 16px;
+  position: relative;
+  transition: all .5s ease
+}
+
+@media (max-width:768px) {
+  .home ._list_but a {
+    font-size: 15px;
+    width: 140px;
+    height: 40px
+  }
+}
+
+@media (max-width:480px) {
+  .home ._list_but a {
+    margin-bottom: 0;
+    height: 35px;
+    width: calc((100% - 20px)/3);
+    margin-right: 0;
+    font-size: 13px
+  }
+}
+
+@media (max-width:320px) {
+  .home ._list_but a {
+    font-size: 12px;
+    width: calc((100% - 10px)/3)
+  }
+}
+
+@media (min-width:769px) {
+  .home ._list_but a:hover {
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(26, 60, 104, .25), 0 14px 24px rgba(255, 228, 202, .25), 0 12px 24px rgba(26, 60, 104, .25)
+  }
+
+  .home ._list_but a:hover:before {
+    opacity: 1
+  }
+}
+
+.home ._list_but a p {
+  z-index: 1
+}
+
+.home ._list_but a img {
+  margin-right: 8px;
+  width: 0;
+  transition: all .5s ease
+}
+
+@media (max-width:480px) {
+  .home ._list_but a img {
+    margin-right: 5px;
+    width: 13px
+  }
+}
+
+.home ._list_but a:before {
+  transition: all .5s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/common/img_4.png);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 0
+}
+
+.home ._list_but a:last-child {
+  margin-right: 0
+}
+
+.home ._list_but a:last-child.dislable {
+  opacity: .5 !important;
+  pointer-events: none !important
+}
+
+.home ._list_but a:last-child:before {
+  display: none
+}
+
+@media (min-width:769px) {
+  .home ._list_but a:last-child {
+    background: #fff
+  }
+}
+
+@media (max-width:480px) {
+  .home ._list_but a:last-child {
+    margin-bottom: 0
+  }
+}
+
+.home ._list_but a:nth-child(2) {
+  box-shadow: 0 4px 6px rgba(26, 60, 104, .25), 0 14px 24px rgba(255, 228, 202, .25), 0 12px 24px rgba(26, 60, 104, .25);
+  font-family: AVENIRNEXT-MEDIUM\.TTF
+}
+
+.home ._list_but a:nth-child(2):before {
+  opacity: 1
+}
+
+@media (min-width:769px) {
+  .home ._list_but a:nth-child(2):hover {
+    background: rgba(26, 60, 104, .7);
+    color: #fff
+  }
+
+  .home ._list_but a:nth-child(2):hover:before {
+    z-index: -1
+  }
+}
+
+.home ._list_but a:first-child:before {
+  display: none
+}
+
+@media (min-width:769px) {
+  .home ._list_but a:first-child:hover {
+    background: #f2f2f2
+  }
+}
+
+.home ._list_but .click_thamgia_toggle {
+  color: #27ae60;
+  background: #fff !important
+}
+
+.home ._list_but .click_thamgia_toggle img {
+  width: auto
+}
+
+@media (max-width:480px) {
+  .home ._list_but .click_thamgia_toggle img {
+    width: 13px
+  }
+} */
 
 /* .btn-1 {
     position: absolute;
@@ -272,34 +456,37 @@ html, body {
 } */
 
 .ivitation-card {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    transform: translate(0, 0);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transform: translate(0, 0);
 }
+
 .photo-albums {
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-    transform: translate(0, 0);
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  transform: translate(0, 0);
 }
+
 .is-active {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1)
-  }
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1)
+}
+
 /* Reponsive */
 /* #sm */
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) {}
 
-}
 /* #md */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
-}
 /* #lg */
 @media only screen and (min-width: 992px) {}
+
 /* #xl */
 @media only screen and (min-width: 1200px) {}
+
 /* #xxl */
 @media only screen and (min-width: 1400px) {}
