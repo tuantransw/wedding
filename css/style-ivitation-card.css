@@ -986,7 +986,7 @@
   }
   
   .mb {
-    display: none;
+    display: block;
   }
   
   @media only screen and (max-width: 1440px) {
@@ -1040,13 +1040,13 @@
       transform: translateX(-50%);
     }
   
-    .pc {
+    /* .pc {
       display: none;
     }
   
     .mb {
       display: block;
-    }
+    } */
   
     .footer-home .container_common .content_common .des {
       /* padding-bottom: 25px; */
