@@ -5,7 +5,7 @@
 .popup-ivitation-card p {
     margin: 0;
 }
-/* .popup-ivitation-card {
+.popup-ivitation-card {
     width: 100%;
     height: 100vh;
     background: #fff;
@@ -21,26 +21,8 @@
     visibility: hidden;
 
     font-family: AVENIRNEXT-REGULAR\.TTF;
-  } */
-
-  .popup-ivitation-card {
-    background: #fff;
-    position: fixed;
-    background-position: top;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    transition: .4s;
-    opacity: 0;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    font-family: AVENIRNEXT-REGULAR\.TTF;
   }
 
-  
   @media (max-width:480px) {
     .popup-ivitation-card {
       /* overflow: hidden; */
