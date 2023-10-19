@@ -179,13 +179,12 @@ span.onclick = function() {
 function getScreenSize() {
   const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   const screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-  return `Chiều rộng: ${screenWidth}px, Chiều cao: ${screenHeight}px`;
+  console.log(`Chiều rộng: ${screenWidth}px, Chiều cao: ${screenHeight}px`);
 }
 
 // Hiển thị kích thước màn hình trên trang
 function displayScreenSize() {
-  const screenSizeElement = document.getElementById("screen-dimensions");
-  screenSizeElement.textContent = getScreenSize();
+  getScreenSize();
 }
 
 // Gọi hàm hiển thị kích thước màn hình khi trang được tải

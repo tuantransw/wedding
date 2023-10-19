@@ -242,6 +242,7 @@ html, body {
     opacity: 0.9;
 }
 
+
 .title p {
   margin: 0;
   padding: 0;
@@ -496,3 +497,57 @@ html, body {
 
 /* #xxl */
 @media only screen and (min-width: 1400px) {}
+
+
+.go-to-albums {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    transform: translateY(0%);
+  
+    background: transparent;
+  
+    border: none;
+  }
+
+  .go-to-albums .redirect img{
+    width: 65%;
+  }
+
+  .go-to-ivitation {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    transform: translateY(0%);
+  
+    background: transparent;
+  
+    border: none;
+  }
+
+  .go-to-albums .redirect, .go-to-ivitation .redirect{
+    width: 60px;
+    height: 60px;
+    background: #1a3c6833;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+  
+  }
+  .go-to-ivitation .redirect img{
+    width: 65%;
+  }
