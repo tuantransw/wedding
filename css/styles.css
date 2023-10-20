@@ -536,7 +536,9 @@ html, body {
   .go-to-albums .redirect, .go-to-ivitation .redirect{
     width: 60px;
     height: 60px;
-    background: #1a3c6833;
+    /* background: #1a3c6833; */
+    background: whitesmoke;
+
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     display: block;
