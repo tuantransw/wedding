@@ -164,7 +164,8 @@ var photoAlbumsModal = document.getElementById("popup-album-image");
 photoAlbums.onclick = function(){
   photoAlbumsModal.classList.add("is-active");
 
-  if (first) {
+  var backgroundAudio = document.getElementById("backgroundAudio");
+  if (first && backgroundAudio.paused) {
     audioClick();
     first = false;
   }
@@ -178,7 +179,8 @@ ivitationCard.onclick = function(){
   // ivitationCardModal.style.display = "block";
   ivitationCardModal.classList.add("is-active");
 
-  if (first) {
+  var backgroundAudio = document.getElementById("backgroundAudio");
+  if (first && backgroundAudio.paused) {
     audioClick();
     first = false;
   }
