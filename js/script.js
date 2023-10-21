@@ -19,7 +19,7 @@
 //     // Handle errors here
 //     console.error('There was a problem with the fetch operation:', error);
 //   });
-
+var first = true;
 function audioClick() {
   var backgroundAudio = document.getElementById("backgroundAudio");
   var image = document.getElementById("imgMusic");
@@ -163,8 +163,25 @@ var photoAlbumsModal = document.getElementById("popup-album-image");
 
 photoAlbums.onclick = function(){
   photoAlbumsModal.classList.add("is-active");
-  audioClick();
 
+  if (first) {
+    audioClick();
+    first = false;
+  }
+}
+
+// Get the modal
+var ivitationCard = document.getElementById("ivitation-card");
+var ivitationCardModal = document.getElementById("cards-groom");
+
+ivitationCard.onclick = function(){
+  // ivitationCardModal.style.display = "block";
+  ivitationCardModal.classList.add("is-active");
+
+  if (first) {
+    audioClick();
+    first = false;
+  }
 }
 
 // Get the <span> element that closes the modal
