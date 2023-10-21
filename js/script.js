@@ -163,6 +163,8 @@ var photoAlbumsModal = document.getElementById("popup-album-image");
 
 photoAlbums.onclick = function(){
   photoAlbumsModal.classList.add("is-active");
+  audioClick();
+
 }
 
 // Get the <span> element that closes the modal

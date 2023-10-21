@@ -80,13 +80,13 @@ var ivitationCardModal = document.getElementById("cards-groom");
 ivitationCard.onclick = function(){
   // ivitationCardModal.style.display = "block";
   ivitationCardModal.classList.add("is-active");
+  audioClick()
 }
 
 
 var back = document.getElementById("back");
 
 back.onclick = function(){
-  console.log("aloo")
     // ivitationCardModal.style.display = "block";
     ivitationCardModal.classList.remove("is-active");
   }
