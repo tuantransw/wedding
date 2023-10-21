@@ -761,7 +761,10 @@
     visibility: hidden;
     transition: .8s;
     transition-delay: 1s;
-    transform: translateY(-400px)
+    transform: translateY(-400px);
+
+    display: flex;
+    justify-content: center;
   }
   
   @media (max-width:480px) {
