@@ -28,7 +28,24 @@
 </head>
 
 <body>
+    <div class="audio-group">
+        <button onclick="audioClick()" class="btn-music" id="btnMusic">
+          <img
+            id="imgMusic"
+            src="images/icons/pause.png"
+            alt="music"
+          />
+          <span class="span-music">Music</span>
+        </button>
+        <audio id="backgroundAudio" autoplay loop>
+          <source
+            src="audios/Stephen Sanchez  Until I Found You Piano Version.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
     <div class="home">
+        <canvas id="canvas"></canvas>
         <!-- <div class="group-music">
             <div class="vinyl-disc" id="vinyl-disc">
                 <div class="circle-2">
@@ -43,13 +60,6 @@
 
         </div> -->
         <div class="info-bottom">
-
-        </div>
-        <!-- <div class="lst-button">
-            <div id="ivitation-card" class="btn-test">Thiệp mời</div>
-            <div id="photo-albums" class="btn-test">Albums</div>
-        </div> -->
-        <!-- <div class="container">
             <div class="title">
                 <p class="name">Tuấn Anh</p>
                 <p class="or">&</p>
@@ -57,9 +67,15 @@
                 <p class="save-the-date">Save the date</p>
                 <p class="date">22 - 10</p>
             </div>
-            <div>
-                <Button id="photo-albums" class="btn-test" style="margin-right: 10px;">Thiệp mời</Button>
-                <Button id="ivitation-card" class="btn-test">Albums</Button>
+        </div>
+
+        <!-- <div class="container">
+            <div class="title">
+                <p class="name">Tuấn Anh</p>
+                <p class="or">&</p>
+                <p class="name">Ngọc Anh</p>
+                <p class="save-the-date">Save the date</p>
+                <p class="date">22 - 10</p>
             </div>
         </div> -->
         
@@ -297,6 +313,7 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script src="js/rose.js"></script>
     <script src="js/albums.js"></script>
     <script src="js/ivitation-card.js"></script>
 

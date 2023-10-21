@@ -127,6 +127,31 @@ html, body {
   position: relative;
 }
 
+.btn-music {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 500;
+  width: 101px;
+  height: 36px;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.span-music {
+  margin-left: 10px;
+}
+
 /* .group-music {
     position: absolute;
     top: 10px;
@@ -537,8 +562,7 @@ html, body {
     width: 60px;
     height: 60px;
     /* background: #1a3c6833; */
-    background: whitesmoke;
-
+    background: white;
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     display: block;
@@ -548,8 +572,14 @@ html, body {
     justify-content: center;
     flex-direction: row;
     cursor: pointer;
-  
   }
+
+  @media (max-width:480px) {
+    .go-to-albums .redirect, .go-to-ivitation .redirect{
+        background: #1a3c6833;
+    }
+  }
+
   .go-to-ivitation .redirect img{
     width: 65%;
   }

@@ -1,36 +1,7 @@
 window.lazySizesConfig = window.lazySizesConfig || {},
 window.lazySizesConfig.expand = 9,
+
 document.addEventListener("DOMContentLoaded", function () {
-    // function openAlbumPopup() {
-    //     var albumItems = document.querySelectorAll("#album-main .album-item");
-    //     console.log(albumItems)
-    //     albumItems.forEach(function (item) {
-    //         console.log(item)
-    //         item.addEventListener("click", function (event) {
-    //             event.preventDefault();
-    //             if (window.innerWidth > 0) {
-    //                 console.log('khi nao thi vao 1');
-    //                 var imgSrc = this.querySelector("img").getAttribute("data-src");
-    //                 var albumThumbs = document.querySelectorAll('#popup-album-image [data-src="' + imgSrc + '"]');
-    //                 var index = 0;
-    //                 for (var i = 0; i < albumThumbs.length; i++) {
-    //                     if (albumThumbs[i].parentNode.classList.contains("swiper-slide")) {
-    //                         index = i;
-    //                         break;
-    //                     }
-    //                 }
-    //                 console.log(index);
-    //                 topSwiper.slideTo(index, 0);
-    //                 setTimeout(function () {
-    //                     document.querySelector("#popup-album-image").classList.add("is-active");
-    //                 }, 300);
-    //             }
-    //         });
-    //     });
-    // }
-
-    // openAlbumPopup();
-
     var closePopupButton = document.querySelector("#btn-close-album-popup");
     if (closePopupButton) {
         closePopupButton.addEventListener("click", function () {

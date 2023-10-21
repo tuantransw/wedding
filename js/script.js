@@ -25,10 +25,10 @@ function audioClick() {
   var image = document.getElementById("imgMusic");
   if (backgroundAudio.paused) {
     backgroundAudio.play();
-    image.src = "https://tuantransw.github.io/wedding/Images/Icons/pause.png";
+    image.src = "../images/icons/pause.png";
   } else {
     backgroundAudio.pause();
-    image.src = "https://tuantransw.github.io/wedding/Images/Icons/play.png";
+    image.src = "../images/icons/play.png";
   }
 }
 
@@ -36,9 +36,9 @@ function changeImgAudio() {
   var backgroundAudio = document.getElementById("backgroundAudio");
   var image = document.getElementById("imgMusic");
   if (backgroundAudio.paused) {
-    image.src = "https://tuantransw.github.io/wedding/Images/Icons/play.png";
+    image.src = "../images/icons/play.png";
   } else {
-    image.src = "https://tuantransw.github.io/wedding/Images/Icons/pause.png";
+    image.src = "../images/icons/pause.png";
   }
 }
 
@@ -108,7 +108,7 @@ function closePopupAlbum() {
 
 // Onload body
 function runInit() {
-  setTimeout(showLoading, 2000);
+  // setTimeout(showLoading, 2000);
   changeImgAudio();
 }
 // Hiển thị loading animation
