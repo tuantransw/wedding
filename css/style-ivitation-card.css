@@ -1331,3 +1331,35 @@
   visibility: visible;
   transform: scale(1)
 }
+
+.popup-ivitation-card ._thamgia_active ._back ._content ._detail ._item2 ._name{
+  width: 240px;
+  height: 35px;
+  margin-left: 10px;
+  padding: 10px;  
+  /* text-align: center; */
+}
+
+.popup-ivitation-card ._thamgia_active ._back ._content ._detail ._item2 ._phoneNumber{
+  width: 232px;
+  height: 35px;
+  margin-left: 10px;
+  padding: 10px;  
+  /* text-align: center; */
+}
+/* .popup-ivitation-card ._thamgia_active ._back ._content ._detail ._item2 {
+  display: flex;
+} */
+
+.popup-ivitation-card ._thamgia_active ._back ._content ._detail ._item2 ._numberOfPeople {
+  width: 50px;
+  height: 35px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.popup-ivitation-card ._thamgia_active ._back ._content ._detail ._item2 ._gui {
+  width: 50px;
+  height: 35px;
+  text-align: center;
+}
