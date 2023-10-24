@@ -7,6 +7,13 @@ back.onclick = function () {
 
 document.querySelector(".click_thamgia").addEventListener("click", function (event) {
     event.preventDefault();
+    var guestId = localStorage.getItem('guest_id');
+    if (guestId !== null && guestId !== undefined && guestId !== "") {
+        document.querySelector("#btnSubmit").textContent = "Cập nhất";
+    } else {
+        document.querySelector("#btnSubmit").textContent = "Gửi";
+    }
+
     document.querySelector("#cm-join").classList.add("_thamgia_active");
     document.querySelector("#btnMusic").style.opacity = 0;
     document.querySelector("#btnMusic").style.visibility = "hidden";
@@ -58,17 +65,42 @@ function submitForm() {
             return; // Ngừng xử lý tiếp và hiển thị thông báo lỗi
         }
     }
-    // Tạo một đối tượng chứa dữ liệu
+
+    var guestId = localStorage.getItem('guest_id');
+
     var data = {
+        id: guestId,
         name: name,
         phoneNumber: phoneNumber,
         numberOfPeople: numberOfPeople
     };
-    console.log(data)
-    // Thay thế URL bằng URL thực tế của API bạn muốn gọi
-    var apiUrl = "https://api.tuanngoc.online/api/guests";
 
-    // Gửi POST request bằng Fetch API
+    var apiUrl = "";
+    if(guestId !== null && guestId !== undefined && guestId !== ""){
+        apiUrl = "https://api.tuanngoc.online/api/guests/update"
+        fetch(apiUrl, {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Có lỗi xảy ra khi gửi. Vui lòng thử lại.");
+                }
+                message.textContent = "Cập nhật thông tin thành công.";
+            }
+            )
+            .catch(error => {
+                // Xử lý lỗi (nếu có)
+                console.error("Lỗi khi gọi API: " + error);
+                message.textContent = "Có lỗi xảy ra trong quá trình gửi. Vui lòng thử lại.";
+            });
+    }
+    else {
+        apiUrl = "https://api.tuanngoc.online/api/guests";
+        // Gửi POST request bằng Fetch API
     fetch(apiUrl, {
         method: 'POST',
         body: JSON.stringify(data),
@@ -76,11 +108,21 @@ function submitForm() {
             'Content-Type': 'application/json'
         }
     })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Có lỗi xảy ra khi gửi. Vui lòng thử lại.");
+            }
+            return response.json()
+        }
+        )
         .then(data => {
             // Xử lý dữ liệu từ API ở đây
-            if(response.status == 201){
+            if (data !== null && data !== undefined && data !== "") {
+                localStorage.setItem('guest_id', data);
                 message.textContent = "Gửi thông tin thành công, cảm ơn bạn đã tham gia cùng gia đình chúng tôi.";
+                document.querySelector("#btnSubmit").textContent = "Cập nhất";
+            } else {
+                message.textContent = "Có lỗi xảy ra trong quá trình gửi. Vui lòng thử lại.";
             }
             console.log(data);
         })
@@ -89,4 +131,7 @@ function submitForm() {
             console.error("Lỗi khi gọi API: " + error);
             message.textContent = "Có lỗi xảy ra trong quá trình gửi. Vui lòng thử lại.";
         });
+    }
+
+    
 }
