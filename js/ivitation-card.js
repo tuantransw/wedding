@@ -51,6 +51,13 @@ function submitForm() {
         message.textContent = "Vui lòng nhập số điện thoại trước khi gửi.";
         return; // Ngừng xử lý tiếp và hiển thị thông báo lỗi
     }
+    else {
+        var phoneRegex = /^(0|\+84)(\s|\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\d)(\s|\.)?(\d{3})(\s|\.)?(\d{3})$/;
+        if (!phoneRegex.test(phoneNumber)) {
+            message.textContent = "Số điện thoại không hợp lệ. Vui lòng nhập lại.";
+            return; // Ngừng xử lý tiếp và hiển thị thông báo lỗi
+        }
+    }
     // Tạo một đối tượng chứa dữ liệu
     var data = {
         name: name,
