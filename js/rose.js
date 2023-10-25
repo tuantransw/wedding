@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
     things = [],
-    thingsCount = 10,
+    thingsCount = 18,
     mouse = {
       x: -100,
       y: -100

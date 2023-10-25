@@ -221,30 +221,33 @@ html, body {
   transform: translate(-50%, -50%);
 }
 
-.container {
-  justify-content: center;
-  text-align: center;
-  padding: 350px 16px;
+.group-title {
+  position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center!important;
 }
 
 /* Mặc định */
-.title {
+/* .title {
   width: 150px;
-  /* position: absolute; */
   background: hsla(0, 0%, 0%, 0.393);
-  /* bottom: 30%;*/
+ 
   padding: 10px;
-  /* 
-    text-align: center; */
   color: white;
+} */
+.title {
+  /* color: white; */
+  color:#1a3c68;
 }
 
-.lst-button {
+/* .lst-button {
   position: absolute;
   bottom: 40px;
-}
+} */
 
-.btn-test {
+/* .btn-test {
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -265,7 +268,7 @@ html, body {
     background-color: #fff;
     color: #1d1d1f;
     opacity: 0.9;
-}
+} */
 
 
 .title p {
@@ -274,26 +277,26 @@ html, body {
 }
 
 .title .name {
-  font-family: DancingScript;
-  font-size: 30px;
+  font-family: "9SLIDE06JOYFUL.ttf";
+  font-size: 80px;
 }
 
-.title .or {
-  font-family: DancingScript;
-  font-size: 15px;
-  padding-top: 5px
+.title .and {
+  font-family: "9SLIDE06JOYFUL.ttf";
+  font-size: 40px;
+  padding-top: 0px
 }
 
 .title .save-the-date {
   font-family: 'Times New Roman', Times, serif;
   padding-top: 5px;
-  font-size: 15px;
+  font-size: 20px;
 
 }
 
 .title .date {
   font-family: ICielDomaine;
-  font-size: 20px;
+  font-size: 45px;
   padding-top: 5px;
 }
 
